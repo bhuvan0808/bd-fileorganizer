@@ -21,25 +21,26 @@ It’s perfect for tidying up your `Downloads`, `Desktop`, or project folders wi
 Install from source:
 
 ```bash
-git clone https://github.com/your-username/fileorganizer.git
-cd fileorganizer
+git clone https://github.com/bhuvan0808/bd-fileorganizer
+cd bd-fileorganizer
 pip install -e .
 ````
 
-> 📌 Coming soon to PyPI!
+> 📌 Available on PyPI!
+> [![PyPI version](https://pypi.org/project/fileorganizer/)](https://pypi.org/project/bd-fileorganizer/)
 
 ---
 
 ## 🖥️ CLI Usage
 
 ```bash
-fileorganizer /path/to/folder
+bd-fileorganizer /path/to/folder
 ```
 
 **Dry-run (preview only):**
 
 ```bash
-fileorganizer /path/to/folder --dry
+bd-fileorganizer /path/to/folder --dry
 ```
 
 ---
@@ -47,7 +48,7 @@ fileorganizer /path/to/folder --dry
 ## 🐍 Python API
 
 ```python
-from fileorganizer import organize_folder
+from bd-fileorganizer import organize_folder
 
 organize_folder("/Users/you/Downloads", dry_run=False)
 ```
@@ -102,21 +103,21 @@ Downloads/
 
 ## 📄 License
 
-Licensed under the [MIT License](LICENSE)
+Licensed under the [License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 ---
 
 ## 🤝 Contributing
 
 Contributions, feature ideas, and bug reports are welcome!
-Feel free to open an [issue](https://github.com/your-username/fileorganizer/issues) or a [pull request](https://github.com/your-username/fileorganizer/pulls).
+Feel free to open an [issue](https://github.com/your-username/bd-fileorganizer/issues) or a [pull request](https://github.com/your-username/bd-fileorganizer/pulls).
 
 ---
 
 ## 👤 Author
 
 **Your Name**
-GitHub: [@your-username](https://github.com/your-username)
+GitHub: [@Bhuvan](https://github.com/bhuvan0808)
 
 ---
 
