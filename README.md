@@ -5,6 +5,18 @@
 It’s perfect for tidying up your `Downloads`, `Desktop`, or project folders with just one command.
 
 ---
+## 📦 HOW TO USE:
+
+** In Your terminal:
+If mac python3 , if windows python
+- pip install bd-fileorganizer
+- from bd_fileorganizer.organizer import organize_folder
+- organize_folder("give your folder path with different files")
+
+** In Your ipynb file:
+- pip install bd-fileorganizer
+- from bd_fileorganizer.organizer import organize_folder
+- organize_folder("give your folder path with different files")
 
 ## 📦 Features
 
@@ -32,13 +44,13 @@ pip install bd-fileorganizer
 ## 🖥️ CLI Usage
 
 ```bash
-fileorganizer /path/to/folder
+organize_folder "/path/to/folder"
 ```
 
 **Dry-run (preview only):**
 
 ```bash
-fileorganizer /path/to/folder --dry
+organize_folder "/path/to/folder" --dry
 ```
 
 ---
@@ -46,9 +58,10 @@ fileorganizer /path/to/folder --dry
 ## 🐍 Python API
 
 ```python
-from fileorganizer import organize_folder
 
-organize_folder("/Users/you/Downloads", dry_run=False)
+from bd_fileorganizer.organizer import organize_folder
+
+organize_folder("/Users/you/Downloads")
 ```
 
 ---
@@ -101,7 +114,7 @@ Downloads/
 
 ## 📄 License
 
-Licensed under the [MIT License](LICENSE)
+Licensed under the [GNU License](https://www.gnu.org/licenses/gpl-3.0.html#license-text)
 
 ---
 
@@ -122,4 +135,4 @@ GitHub: [@devaagulla](https://github.com/devaagulla)
 
 ---
 
-> 🧹 Make your folders smarter, not messier — with `fileorganizer` 🗂️
+> 🧹 Make your folders smarter, not messier — with `bd-fileorganizer` 🗂️
