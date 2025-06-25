@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "bd_fileorganizer"
-version = "0.0.1"
+version = "0.0.3"
 description = "Organize files in folders by type"
 authors = [{name = "Bhuvan Boddu", email = "bhuvanboddu08@gmail.com"},
            {name = "Devaraj Agulla", email = "devaagulla770@gmail.com"}]

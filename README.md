@@ -21,12 +21,11 @@ It’s perfect for tidying up your `Downloads`, `Desktop`, or project folders wi
 Install from source:
 
 ```bash
-git clone https://github.com/your-username/fileorganizer.git
-cd fileorganizer
-pip install -e .
+pip install bd-fileorganizer
 ````
 
-> 📌 Coming soon to PyPI!
+> 📌 Available on PyPI!
+    https://pypi.org/project/bd-fileorganizer/
 
 ---
 
@@ -109,14 +108,17 @@ Licensed under the [MIT License](LICENSE)
 ## 🤝 Contributing
 
 Contributions, feature ideas, and bug reports are welcome!
-Feel free to open an [issue](https://github.com/your-username/fileorganizer/issues) or a [pull request](https://github.com/your-username/fileorganizer/pulls).
+Feel free to open an [issue](https://github.com/bhuvan0808/bd-fileorganizer/issues) or a [pull request](https://github.com/bhuvan0808/bd-fileorganizer/pulls).
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
-**Your Name**
-GitHub: [@your-username](https://github.com/your-username)
+**Bhuvan**
+GitHub: [@bhuvan0808](https://github.com/bhuvan0808)
+GitHub: [@devaagulla](https://github.com/devaagulla)
+
+
 
 ---
 
